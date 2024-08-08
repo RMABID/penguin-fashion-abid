@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+  
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: rgb(54, 57, 88);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background: linear-gradient(rgb(164, 188, 70),rgb(133, 160, 25));
+}
+
+
+
+
+header{
+    background-color: rgb(255, 251, 240);
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.nav-logo{
+    width: 292px;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.nav-logo img{
+    width: 100%;
+    height: 100%;
+}
+.nav-links ul{
+    display: flex;
+    gap: 55px;
+}
+
+
+.bannner-section-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.banner-content h1{
+    font-family: "Bebas Neue", sans-serif;
+    width: 416px;
+    height: 212px;
+    margin-top: 100px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+    font-size: 80px;
+    color: rgb(250, 190, 76);
+}
+.banner-content p{
+    width: 357px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(62, 62, 62);
+}
+.banner-image{
+    margin-top: 20px;
+}
+
+
+
+.woman-jacket-content h1{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(54, 57, 88);
+}
+.woman-jacket-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 45px;
+}
+.card{
+    width: 370px;
+    height: 550px;
+    padding: 22px 21px 12px 20px;
+    border-radius: 18px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 2px 5px 8px 9px rgba(0, 0, 0, 0.05);
+    background-color: rgb(255, 255, 255);
+}
+.card-image{
+    width: 334px;
+    height: 327px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    background-color: rgb(241, 241, 241);
+}
+.card h1{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 15px;
+    color: rgb(54, 57, 88);
+}
+.card p{
+    width: 299px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(62, 62, 62);
+}
+.buy-section{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.buy-section p{
+    font-weight: 900;
+    font-size: 36px;
+    color: rgb(250, 190, 76);
+}
