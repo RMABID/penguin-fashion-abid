@@ -151,3 +151,49 @@ header{
     font-size: 36px;
     color: rgb(250, 190, 76);
 }
+
+
+
+.footer-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.footer-logo{
+    width: 78px;
+    height: 82px;
+}
+.footer-content{
+    width: 489px;
+    height: 135px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px 9px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+    column-gap: 20px;
+
+}
+.title h1{
+    width: 206px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(54, 57, 88);
+}
+.title p{
+    width: 276px;
+    height: 52px;
+    font-weight: 400;
+    font-family: 16px;
+    color: rgb(62, 62, 62);
+}
+.footer-image{
+    width: 600px;
+    height: 355px;
+}
