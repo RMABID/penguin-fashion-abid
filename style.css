@@ -199,6 +199,7 @@ header{
 .footer-image{
     width: 600px;
     height: 355px;
+    /* border: 1px solid red; */
 }
 
 
@@ -227,5 +228,33 @@ header{
     }
     .bannner-section-container{
         flex-direction: column;
+    }
+    .woman-jacket-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-section{
+        margin-top: 220px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-content{
+        width: 343px;
+        height: 240px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-image{
+        width: 292px;
+        height: 173px;
+        margin-top: -1000px;
+    }
+    .title h1,
+    .title p{
+        margin: auto;
+        line-height: 28px;
+        text-align: center;
     }
 }
