@@ -65,6 +65,9 @@ header{
     display: flex;
     gap: 55px;
 }
+.menu-icon{
+    display: none;
+}
 
 
 .bannner-section-container{
@@ -196,4 +199,33 @@ header{
 .footer-image{
     width: 600px;
     height: 355px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    
+    .container{
+        max-width: 343px;
+        margin: auto;
+    }
+    .nav-links {
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .nav-logo{
+        width: 192px;
+        height: 26px;
+    }
+    .banner-content h1{
+        width: 312px;
+        height: 154px;
+        font-size: 60px;
+    }
+    .bannner-section-container{
+        flex-direction: column;
+    }
 }
